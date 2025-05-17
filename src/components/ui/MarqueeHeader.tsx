@@ -1,4 +1,11 @@
-export default function MarqueeHeader({text, icon}){
+import type { ReactNode } from 'react';
+
+type MarqueeHeaderProps = {
+    text: string,
+    icon: ReactNode
+}
+
+export default function MarqueeHeader({text, icon}: MarqueeHeaderProps){
     return(
         <>
         <div className=' bg-black h-px rounded container mx-auto'></div>

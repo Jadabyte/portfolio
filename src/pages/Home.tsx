@@ -1,21 +1,9 @@
-import { useEffect, useState } from 'react';
 import Button from '../components/ui/Button';
 import SelectedWorks from './sections/SelectedWorks';
 import TechStack from './sections/TechStack';
 import Contact from './sections/Contact';
 
 export default function Home() {
-    const colors = ['text-red-500', 'text-blue-500', 'text-green-500', 'text-yellow-500'];
-    const [colorIndex, setColorIndex] = useState(0);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setColorIndex((prevColor) => (prevColor + 1) % colors.length);
-        }, 200);
-
-        return () => clearInterval(interval);
-    }, []);
-
     return (
     <>
         <div className='pt-40 pb-40'>
