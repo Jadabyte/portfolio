@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Redesign for Company X",
+    "slug": "company-x",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "tech": ["React", "Drupal", "Figma"],
+    "image": "/images/professional/bikeandco/cover.png",
+    "url": "https://www.bikeandco.be",
+    "date": "2023"
+  },
+  {
+    "title": "Redesign for Company X",
+    "slug": "company-x",
+    "description": "Led a full redesign of Company X's marketing site using Drupal + React.",
+    "tech": ["React", "Drupal", "Figma"],
+    "image": "/images/professional/bikeandco/cover.png",
+    "url": "https://www.bikeandco.be",
+    "date": "2023"
+  },
+  {
+    "title": "Redesign for Company X",
+    "slug": "company-x",
+    "description": "Led a full redesign of Company X's marketing site using Drupal + React.",
+    "tech": ["React", "Drupal", "Figma"],
+    "image": "/images/professional/bikeandco/cover.png",
+    "url": "https://www.bikeandco.be",
+    "date": "2023"
+  },
+  {
+    "title": "Redesign for Company X",
+    "slug": "company-x",
+    "description": "Led a full redesign of Company X's marketing site using Drupal + React.",
+    "tech": ["React", "Drupal", "Figma"],
+    "image": "/images/professional/bikeandco/cover.png",
+    "url": "https://www.bikeandco.be",
+    "date": "2023"
+  },
+  {
+    "title": "Redesign for Company X",
+    "slug": "company-x",
+    "description": "Led a full redesign of Company X's marketing site using Drupal + React.",
+    "tech": ["React", "Drupal", "Figma"],
+    "image": "/images/professional/bikeandco/cover.png",
+    "url": "https://www.bikeandco.be",
+    "date": "2023"
+  },
+  {
+    "title": "Redesign for Company X",
+    "slug": "company-x",
+    "description": "Led a full redesign of Company X's marketing site using Drupal + React.",
+    "tech": ["React", "Drupal", "Figma"],
+    "image": "/images/professional/bikeandco/cover.png",
+    "url": "https://www.bikeandco.be",
+    "date": "2023"
+  },
+  {
+    "title": "Redesign for Company X",
+    "slug": "company-x",
+    "description": "Led a full redesign of Company X's marketing site using Drupal + React.",
+    "tech": ["React", "Drupal", "Figma"],
+    "image": "/images/professional/bikeandco/cover.png",
+    "url": "https://www.bikeandco.be",
+    "date": "2023"
+  }
+]

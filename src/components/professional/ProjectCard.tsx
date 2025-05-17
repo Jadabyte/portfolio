@@ -1,3 +1,5 @@
+import DetailItem from "../ui/DetailItem";
+
 type Project = {
   title: string;
   slug: string;
@@ -10,13 +12,17 @@ type Project = {
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
-    <a target="_blank" href={project.url}>
-        <div className="bg-white shadow rounded p-4">
-        <img src={project.image} alt={project.title} className="rounded mb-2" />
-        <h2 className="text-xl font-bold">{project.title}</h2>
-        <p className="text-sm text-gray-600">{project.description}</p>
-        <div className="text-xs mt-2">{project.tech.join(', ')}</div>
+    <a target="_blank" href={project.url} className="border rounded-md p-3 block">
+      <img src={project.image} alt={project.title} className="rounded mb-4" />
+
+      <div className="pl-2 pr-2">
+        <div className="grid grid-cols-2">
+          <DetailItem title={"Website"} description={project.url} />
+          <DetailItem title={"Date"} description={project.date} align="text-right" />
         </div>
+        <DetailItem title={"Key tech"} description={project.tech.join(', ')} />
+        <DetailItem title={"Description"} description={project.description} />
+      </div>
     </a>
   );
 }
