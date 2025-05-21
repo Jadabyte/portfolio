@@ -12,13 +12,23 @@ const changeFavicon = (iconURL: string) => {
 
 function App() {
   useEffect(() => {
+      const handleDarkMode = (icon: string) => {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          return (`/${icon}--light.svg`);
+        } else {
+          return (`/${icon}.svg`);
+        }
+      }
+
       const handleTabState = () => {
         if (document.visibilityState === "hidden") {
-          changeFavicon("/moon.svg");
+          changeFavicon(handleDarkMode('moon'));
         } else {
-          changeFavicon("/sun.svg");
+          changeFavicon(handleDarkMode('sun'));
         }
       };
+
+      changeFavicon(handleDarkMode('sun'));
 
       document.addEventListener("visibilitychange", handleTabState);
 

@@ -6,12 +6,12 @@ import Contact from './sections/Contact';
 export default function Home() {
     return (
     <>
-        <div className='pt-30 pb-40'>
-            <div className="container mx-auto grid grid-cols-2 items-end">
-                <div className='text-5xl text-left font-medium'>
+        <div className='pt-10 pb-20 md:pt-30 md:pb-40'>
+            <div className="container mx-auto md:grid grid-cols-2 items-end">
+                <div className=' text-4xl md:text-5xl text-left font-medium'>
                     Web developer
                 </div>
-                <div className='text-4xl text-right text-gray-500 align-bottom font-medium'>
+                <div className='text-3xl md:text-4xl md:text-right text-gray-500 align-bottom font-medium'>
                     Brussels, Belgium
                 </div>
             </div>
@@ -19,18 +19,18 @@ export default function Home() {
                 <div className=' bg-black h-px rounded container mx-auto'></div>
                 <h1 className='flex pt-3 pb-3 marquee'>
                     {[...Array(15)].map((_, i) => (
-                        <span key={i} aria-hidden={i !== 0} className='whitespace-nowrap pr-4 text-7xl font-semibold'>/ Thibaud Streignart</span>
+                        <span key={i} aria-hidden={i !== 0} className='whitespace-nowrap pr-4 text-6xl md:text-7xl font-semibold'>/ Thibaud Streignart</span>
                     ))}
                 </h1>
                 <div className=' bg-black h-px rounded container mx-auto'></div>
             </div>
-            <div className="container mx-auto grid grid-cols-10">
-                <nav className='text-left col-span-3'>
+            <div className="container mx-auto md:grid grid-cols-10">
+                <nav className='text-left col-span-3 mb-4'>
                     <Button text={"Selected Works"} link={"#work"}/>
                     <Button text={"Tech Stack"} link={"#tech"}/>
                     <Button text={"Links"} link={"#contact"}/>
                 </nav>
-                <div className="text-right col-start-7 col-span-4 text-[20px] font-medium">
+                <div className="md:text-right col-start-7 col-span-4 text-[20px] font-medium">
                     <p className='pb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>

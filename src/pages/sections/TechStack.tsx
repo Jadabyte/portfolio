@@ -14,7 +14,7 @@ export default function TechStack() {
                 </h3>
                 <div className='flex flex-wrap gap-x-15 mb-10'>
                     {techLanguages.map((tech) => (
-                        <img key={tech.title} src={tech.image} alt={tech.title} className="rounded mb-4" />
+                        <img key={tech.title} src={tech.image} alt={tech.title} className="rounded mb-4 h-[100px] md:h-[163px] w-auto" />
                     ))}
                 </div>
 
@@ -23,7 +23,7 @@ export default function TechStack() {
                 </h3>
                 <div className='flex flex-wrap gap-x-15'>
                     {techSiteBuilders.map((tech) => (
-                        <img key={tech.title} src={tech.image} alt={tech.title} className="rounded mb-4" />
+                        <img key={tech.title} src={tech.image} alt={tech.title} className="rounded mb-4 h-[110px] md:h-[163px] w-auto" />
                     ))}
                 </div>
             </div>
