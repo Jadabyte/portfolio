@@ -9,13 +9,13 @@ export default function Contact() {
             />
             <div className="container mx-auto grid grid-cols-2">
                 <div>
-                    <DetailItem title="Email" description={<a href='mailto:thibaud.streignart@gmail.com'>thibaud.streignart@gmail.com</a>}/>
-                    <DetailItem title="Phone" description={<a href='tel:+32470469540'>+32 (0)470 46 95 40</a>}/>
+                    <DetailItem size='large' title="Email" description={<a href='mailto:thibaud.streignart@gmail.com'>thibaud.streignart@gmail.com</a>}/>
+                    <DetailItem size='large' title="Phone" description={<a href='tel:+32470469540'>+32 (0)470 46 95 40</a>}/>
                 </div>
                 <div className='pl-40'>
-                    <DetailItem title="LinkedIn" description={<a href='https://www.linkedin.com/in/thibaud-streignart'>linkedin.com/in/thibaud-streignart</a>}/>
-                    <DetailItem title="Resume" description={<a href='#'>Download - English</a>}/>
-                    <DetailItem title="Letterboxd" description={<a href='https://www.letterboxd.com/TStreignart'>letterboxd.com/TStreignart</a>}/>
+                    <DetailItem size='large' title="LinkedIn" description={<a target='_blank' href='https://www.linkedin.com/in/thibaud-streignart'>linkedin.com/in/thibaud-streignart</a>}/>
+                    <DetailItem size='large' title="Resume" description={<a href='#'>Download - English</a>}/>
+                    <DetailItem size='large' title="Letterboxd" description={<a target='_blank' href='https://www.letterboxd.com/TStreignart'>letterboxd.com/TStreignart</a>}/>
                 </div>
             </div>
         </div>

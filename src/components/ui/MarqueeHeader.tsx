@@ -9,14 +9,24 @@ export default function MarqueeHeader({text, icon}: MarqueeHeaderProps){
     return(
         <>
         <div className=' bg-black h-px rounded container mx-auto'></div>
-        <h2 className='flex pt-3 pb-3 marquee'>
-            {[...Array(10)].map((_, i) => (
-                <div key={i + 'wrapper'} className="flex align-middle justify-center">
-                    <span className="flex items-center mr-4" key={i + 'icon'}>{icon}</span>
-                    <span key={i + 'text'} aria-hidden={i !== 0} className='whitespace-nowrap pr-4 text-5xl'>{text}</span>
+        
+        <div className="marquee-wrapper pt-5 pb-5">
+            <div className="marquee flex">
+                {[...Array(10)].map((_, i) => (
+                <div key={`a-${i}`} className="flex items-center mr-4">
+                    <span className="mr-3">{icon}</span>
+                    <span className="text-5xl whitespace-nowrap font-medium">{text}</span>
                 </div>
-            ))}
-        </h2>
+                ))}
+                {[...Array(10)].map((_, i) => (
+                <div key={`b-${i}`} className="flex items-center mr-4">
+                    <span className="mr-3">{icon}</span>
+                    <span className="text-5xl whitespace-nowrap font-medium">{text}</span>
+                </div>
+                ))}
+            </div>
+        </div>
+
         <div className=' bg-black h-px rounded container mx-auto mb-10'></div>
         </>
     );

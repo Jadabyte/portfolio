@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Drupal",
+    "image": "/images/professional/tech/Drupal.svg",
+    "type": "Languages"
+  },
+  {
+    "title": "Sass",
+    "image": "/images/professional/tech/Sass.svg",
+    "type": "Languages"
+  },
+  {
+    "title": "Twig",
+    "image": "/images/professional/tech/Twig.svg",
+    "type": "Languages"
+  },
+  {
+    "title": "JavaScript",
+    "image": "/images/professional/tech/JavaScript.svg",
+    "type": "Languages"
+  },
+  {
+    "title": "React",
+    "image": "/images/professional/tech/React.svg",
+    "type": "Languages"
+  },
+  {
+    "title": "TailwindCSS",
+    "image": "/images/professional/tech/TailwindCSS.svg",
+    "type": "Languages"
+  },
+  {
+    "title": "PHP",
+    "image": "/images/professional/tech/PHP.svg",
+    "type": "Languages"
+  }
+]
