@@ -2,10 +2,14 @@ import type { ReactNode } from 'react';
 
 type MarqueeHeaderProps = {
     text: string,
-    icon: ReactNode
+    icon: ReactNode,
+    size: string
 }
 
-export default function MarqueeHeader({text, icon}: MarqueeHeaderProps){
+export default function MarqueeHeader({text, icon, size = 'small'}: MarqueeHeaderProps){
+    const textSize = size === 'small' ? 'text-4xl md:text-5xl' : ' text-6xl md:text-7xl';
+    const fontWeight = size === 'small' ? 'font-medium' : 'font-semibold';
+
     return(
         <>
         <div className=' bg-black h-px rounded container mx-auto'></div>
@@ -15,13 +19,13 @@ export default function MarqueeHeader({text, icon}: MarqueeHeaderProps){
                 {[...Array(10)].map((_, i) => (
                 <div key={`a-${i}`} className="flex items-center mr-4">
                     <span className="mr-3">{icon}</span>
-                    <span className="text-5xl whitespace-nowrap font-medium">{text}</span>
+                    <span className={`${textSize} whitespace-nowrap ${fontWeight}`}>{text}</span>
                 </div>
                 ))}
                 {[...Array(10)].map((_, i) => (
                 <div key={`b-${i}`} className="flex items-center mr-4">
                     <span className="mr-3">{icon}</span>
-                    <span className="text-5xl whitespace-nowrap font-medium">{text}</span>
+                    <span className={`${textSize} whitespace-nowrap ${fontWeight}`}>{text}</span>
                 </div>
                 ))}
             </div>

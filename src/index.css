@@ -40,7 +40,6 @@ button:focus-visible {
 }
 
 .marquee-wrapper {
-  overflow: hidden;
   white-space: nowrap;
 }
 

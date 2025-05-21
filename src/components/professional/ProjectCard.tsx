@@ -13,7 +13,7 @@ type Project = {
 export default function ProjectCard({ project }: { project: Project }) {
 
   return (
-    <a target="_blank" href={project.url} className="border rounded-md p-3 block">
+    <a target="_blank" href={project.url} className="border rounded-md p-3 block hover:shadow-xl transition-shadow">
       <img src={project.image} alt={project.title} className="rounded mb-4" />
 
       <div className="pl-2 pr-2">
