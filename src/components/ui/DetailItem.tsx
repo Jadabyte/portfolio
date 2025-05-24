@@ -4,10 +4,11 @@ type DetailItemProps = {
     title: string,
     description: string | ReactNode,
     size: string,
-    align?: string
+    align?: string,
+    weight?: string,
 }
 
-export default function DetailItem({title, description, align = "text-left", size = "small"}: DetailItemProps){
+export default function DetailItem({title, description, align = "text-left", size = "small", weight = "medium"}: DetailItemProps){
     const titleSize = size === "small" ? "text-[14px]" : "text-[20px]";
     const descriptionSize = size === "small" ? "text-[18px]" : "text-[24px]";
     const marginSize = size === "small" ? "mb-2" : "mb-4";
@@ -17,9 +18,9 @@ export default function DetailItem({title, description, align = "text-left", siz
             <h3 className={`${titleSize} text-gray-500`}>
                 {title}
             </h3>
-            <p className={`${descriptionSize} font-bold ${marginSize}`}>
+            <p className={`${descriptionSize} ${marginSize} font-${weight}`}>
                 {description}
-                </p>
+            </p>
         </div>
     );
 }

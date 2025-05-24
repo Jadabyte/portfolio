@@ -10,11 +10,16 @@ export default function Contact() {
             <div className="container mx-auto md:grid grid-cols-2">
                 <div>
                     <DetailItem size='large' title="Email" description={<a href='mailto:thibaud.streignart@gmail.com'>thibaud.streignart@gmail.com</a>}/>
-                    <DetailItem size='large' title="Phone" description={<a href='tel:+32470469540'>+32 (0)470 46 95 40</a>}/>
+                    <DetailItem size='large' title="Phone" description='Available upon request'/>
                 </div>
                 <div className='lg:pl-40'>
                     <DetailItem size='large' title="LinkedIn" description={<a target='_blank' href='https://www.linkedin.com/in/thibaud-streignart'>linkedin.com/in/thibaud-streignart</a>}/>
-                    <DetailItem size='large' title="Resume" description={<a href='#'>Download - English</a>}/>
+                    <DetailItem size='large' title="Resume" description={
+                        <>
+                        <a target='_blank' href='/files/resume/cv_thibaud_streignart_en.pdf' className='block'>Download - English</a>
+                        <a target='_blank' href='/files/resume/cv_thibaud_streignart_nl.pdf' className='block'>Download - Dutch</a>
+                        </>}
+                    />
                     <DetailItem size='large' title="Letterboxd" description={<a target='_blank' href='https://www.letterboxd.com/TStreignart'>letterboxd.com/TStreignart</a>}/>
                 </div>
             </div>

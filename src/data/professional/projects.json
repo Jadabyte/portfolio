@@ -1,65 +1,42 @@
 [
   {
-    "title": "Redesign for Company X",
-    "slug": "company-x",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "tech": ["React", "Drupal", "Figma"],
+    "title": "Bike & Co.",
+    "slug": "bike-co",
+    "description": "As part of a complete rebrand of this bike lease organisation, I built a new conversion-focused site, featuring a cascading colour scheme and two JS-heavy conversion forms. One helps users calculate leasing costs, while the other makes it easy to request a personalised quote—complete with bike-specific accessories. Together, these features streamline the site for engagement and lead generation.",
+    "tech": ["Drupal, Sass, JS"],
     "image": "/images/professional/bikeandco/cover.png",
     "url": "https://www.bikeandco.be",
-    "date": "2023"
+    "date": "2024",
+    "credits": "Plant a Flag, Nils Vandenberghe"
   },
   {
-    "title": "Redesign for Company X",
-    "slug": "company-x",
-    "description": "Led a full redesign of Company X's marketing site using Drupal + React.",
-    "tech": ["React", "Drupal", "Figma"],
-    "image": "/images/professional/bikeandco/cover.png",
-    "url": "https://www.bikeandco.be",
-    "date": "2023"
+    "title": "Inclusie Kompas",
+    "slug": "inclusie-kompas",
+    "description": "Designed to maximise findability, the site contains information about inclusivity in the workplace, grouped into four easily navigable categories via a clear colour-coded structure. I implemented a robust search using the Drupal Search API to help visitors quickly access relevant content.",
+    "tech": ["Drupal, Twig, Search API"],
+    "image": "/images/professional/inclusiekompas/cover.png",
+    "url": "https://www.inclusiekompas.be",
+    "date": "2023",
+    "credits": "Plant a Flag, Els Gillisjans"
   },
   {
-    "title": "Redesign for Company X",
-    "slug": "company-x",
-    "description": "Led a full redesign of Company X's marketing site using Drupal + React.",
-    "tech": ["React", "Drupal", "Figma"],
-    "image": "/images/professional/bikeandco/cover.png",
-    "url": "https://www.bikeandco.be",
-    "date": "2023"
+    "title": "Make Day",
+    "slug": "make-day",
+    "description": "For the Make Day brand overhaul, I built a scalable content-rich site with a clearly structured front-end and a flexible back-end tailored to the Make Day team's workflow. This was a good opportunity to hone my Sass skills, especially getting those overlapping elements and radial gradients to play nice.",
+    "tech": ["Drupal, Twig, Sass"],
+    "image": "/images/professional/makeday/cover.png",
+    "url": "https://www.makeday.nl",
+    "date": "2023",
+    "credits": "Plant a Flag, Nils Vandenberghe"
   },
   {
-    "title": "Redesign for Company X",
-    "slug": "company-x",
-    "description": "Led a full redesign of Company X's marketing site using Drupal + React.",
-    "tech": ["React", "Drupal", "Figma"],
-    "image": "/images/professional/bikeandco/cover.png",
-    "url": "https://www.bikeandco.be",
-    "date": "2023"
-  },
-  {
-    "title": "Redesign for Company X",
-    "slug": "company-x",
-    "description": "Led a full redesign of Company X's marketing site using Drupal + React.",
-    "tech": ["React", "Drupal", "Figma"],
-    "image": "/images/professional/bikeandco/cover.png",
-    "url": "https://www.bikeandco.be",
-    "date": "2023"
-  },
-  {
-    "title": "Redesign for Company X",
-    "slug": "company-x",
-    "description": "Led a full redesign of Company X's marketing site using Drupal + React.",
-    "tech": ["React", "Drupal", "Figma"],
-    "image": "/images/professional/bikeandco/cover.png",
-    "url": "https://www.bikeandco.be",
-    "date": "2023"
-  },
-  {
-    "title": "Redesign for Company X",
-    "slug": "company-x",
-    "description": "Led a full redesign of Company X's marketing site using Drupal + React.",
-    "tech": ["React", "Drupal", "Figma"],
-    "image": "/images/professional/bikeandco/cover.png",
-    "url": "https://www.bikeandco.be",
-    "date": "2023"
+    "title": "Plant a Flag",
+    "slug": "plant-a-flag",
+    "description": "I led the development of my current agency's new website, incorporating bold CSS effects like blurs, blend modes, marquees, and a custom image grid. The site also contains select Bootstrap elements such as the accordion and the offcanvas menu, and is built for use in both Dutch and English.",
+    "tech": ["Drupal, Bootstrap, Sass"],
+    "image": "/images/professional/plantaflag/cover.png",
+    "url": "https://www.plantaflag.com",
+    "date": "2022",
+    "credits": "Plant a Flag, Nils Vandenberghe"
   }
 ]

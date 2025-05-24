@@ -25,9 +25,10 @@ export default function Home() {
                     <Button text={"Tech Stack"} link={"#tech"}/>
                     <Button text={"Get in Touch"} link={"#contact"}/>
                 </nav>
-                <div className="md:text-right col-start-7 col-span-4 text-[20px] font-medium">
-                    <p className='pb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <div className="md:text-right col-start-7 col-span-4 text-[18px] font-medium">
+                    <p className='mb-4'>Hey there! I'm a developer who loves making things for people. Whether building stylish websites for non-profits or finding smarter ways to streamline a small business's processes, I'm always up for trying something new - especially if it means brainstorming over a good cup of coffee.</p>
+                    <p className='mb-4'>I love getting lost in new hobbies, talking about movies nonstop, falling down fantasy-shaped rabbit holes, and walking way too much when exploring a new city.</p>
+                    <p>Wanna see what I've built? <a href="#work">Scroll on!</a></p>
                 </div>
             </div>
         </div>
