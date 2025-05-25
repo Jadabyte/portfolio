@@ -33,5 +33,15 @@
     "title": "PHP",
     "image": "/images/professional/tech/PHP.svg",
     "type": "Languages"
+  },
+  {
+    "title": "Bootstrap",
+    "image": "/images/professional/tech/Bootstrap.svg",
+    "type": "Languages"
+  },
+  {
+    "title": "Node.JS",
+    "image": "/images/professional/tech/NodeJS.svg",
+    "type": "Languages"
   }
 ]
