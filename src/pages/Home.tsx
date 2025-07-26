@@ -13,7 +13,7 @@ export default function Home() {
                     Web developer
                 </div>
                 <div className='text-3xl md:text-4xl md:text-right text-gray-500 align-bottom font-medium'>
-                    Brussels, Belgium
+                    Mechelen, Belgium
                 </div>
             </div>
             <div className='mt-10'>
