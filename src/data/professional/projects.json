@@ -2,7 +2,7 @@
   {
     "title": "Seamar",
     "slug": "seamar",
-    "description": "To replace outdated mail and phone orders, I built a custom ordering platform that allows Seamar’s clients to place orders online seamlessly. Using Drupal with Commerce 2, I extended the system with custom modules to define order windows, invite users in bulk, and send reminders under specific conditions - streamlining the ordering process for both Seamar and its clients.",
+    "description": "To replace outdated mail and phone orders, I built an ordering platform that allows Seamar’s clients to place orders online seamlessly. Using Drupal with Commerce 2, I extended the system with custom modules to define order windows, invite users in bulk, and send reminders under specific conditions - streamlining the ordering process for both Seamar and its clients.",
     "tech": ["Drupal, Commerce 2, PHP"],
     "image": "/images/professional/seamar/cover.png",
     "url": "https://orders.seamar.be",
